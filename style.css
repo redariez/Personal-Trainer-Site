@@ -6,6 +6,13 @@ body {
   background-color: grey;
 }
 
+#header {
+  background-color: rgba(248, 248, 248, 0.4);
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+
 #logo {
   display: flex;
   flex-wrap: wrap;
@@ -21,7 +28,7 @@ ul {
 
 li a {
   display: block;
-  color: black;
+  color: red;
   font-weight: bold;
   font-size: 18px;
   padding: 16px;
@@ -39,11 +46,21 @@ section {
 
 #title {
   text-align: center;
+  color: red;
   margin-bottom: 50px;
-  font-family:  verdana, geneva; 
-  font-size: 20px;
+  font-family: verdana, geneva;
+  font-size: 24px;
   font-weight: bold;
-  
+}
+
+p {
+  font-size: 16px;
+  font-family: verdana, geneva;
+}
+
+#clip {
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 #products {
@@ -83,4 +100,12 @@ section {
 
 .card button:hover {
   opacity: 0.7;
+}
+
+#subscribe {
+  background-color: #fff;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  display: flex;
+  justify-content: space-evenly;
 }
