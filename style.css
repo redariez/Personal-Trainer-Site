@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: grey;
+}
+
 #logo {
   display: flex;
   flex-wrap: wrap;
@@ -17,11 +21,29 @@ ul {
 
 li a {
   display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
   padding: 16px;
+  text-decoration: none;
 }
 
 #nav-bar {
   margin-right: 5%;
+}
+
+section {
+  padding: 50px;
+  margin: 50px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family:  verdana, geneva; 
+  font-size: 20px;
+  font-weight: bold;
+  
 }
 
 #products {
